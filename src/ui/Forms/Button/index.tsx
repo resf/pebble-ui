@@ -1,5 +1,5 @@
 import React, { MouseEventHandler } from 'react';
-import colorDefs from '../../../lib/Color';
+import { useTheme } from '../../Theme';
 import '../../style.css';
 
 const defaultColor = ['white', 'gray-900', 'gray-200'];
@@ -54,6 +54,8 @@ const Button = ({
   maxWidth,
   width,
 }: ButtonProps) => {
+  const { colors: colorDefs } = useTheme();
+
   const background = (colorDefs[color] ?? defaultColor)[0];
   const foreground = (colorDefs[color] ?? defaultColor)[1];
   const ring = (colorDefs[color] ?? defaultColor)[2];

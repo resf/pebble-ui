@@ -1,5 +1,5 @@
 import React from 'react';
-import colorDefs from '../../lib/Color';
+import { useTheme } from '../Theme';
 
 const defaultColor = ['white', 'gray-900', 'gray-200'];
 
@@ -26,6 +26,8 @@ export type InfoBarProps = {
  * @param args The arguments to configure this InfoBar instance.
  */
 const InfoBar = ({ color = 'info', label, link }: InfoBarProps) => {
+  const { colors: colorDefs } = useTheme();
+
   const background = (colorDefs[color] ?? defaultColor)[0];
   const foreground = (colorDefs[color] ?? defaultColor)[1];
 
