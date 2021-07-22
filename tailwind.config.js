@@ -4,7 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   darkMode: 'media',
-  purge: ['./src/**/*.js', './src/**/*.jsx', './src/**/*.ts', './src/**/*.tsx'],
+  // purge: ['./src/**/*.js', './src/**/*.jsx', './src/**/*.ts', './src/**/*.tsx'],
   theme: {
     extend: {
       outline: {
