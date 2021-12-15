@@ -1,7 +1,6 @@
-# Pebble UI
+## This repository has been archived. We have decided not to proceed with the development of Pebble UI at this time.
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fpebble.resf.org)](https://pebble.resf.org)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/resforg/pebble-ui/main.svg)](https://results.pre-commit.ci/latest/github/resforg/pebble-ui/main)
+# Pebble UI
 
 A clean React-based UI framework, built using [Tailwind](https://tailwindcss.com).
 
